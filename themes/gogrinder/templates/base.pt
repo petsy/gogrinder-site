@@ -97,6 +97,8 @@
           $(this).fadeOut();
           e.preventDefault();
         });
+      });
+    </script>
 
         <!--GALLERY FILTER-->
         <!--$('.filter li a').click(function(e) {
@@ -144,7 +146,6 @@
           $(this).animate({'opacity' : 0.3});
         });
         
-      });-->
-    </script>
+      -->
   </body>
 </html>

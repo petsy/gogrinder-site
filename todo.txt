@@ -1,13 +1,4 @@
+TODO
+* parts in direct templates
+* check caching settings for direct templates
 
-
-Buccaneer
-o fix LOCAL_URLS = True for SITEURL
-
-Plugins
-o tag_cloud tests and checkin
-
-Template
-o move theme to themes folder
-o add tests for templates
-
-Content

@@ -496,7 +496,7 @@ body {
   font-family: 'Arvo', serif;
   font-size: 14px;
   line-height: 20px;
-  background: url('../images/bg3/bg01.png') repeat fixed;
+  background: url('../img/bg3/bg01.png') repeat fixed;
   opacity: 0.99;
   color: #331a0f;
   border-top: 2px solid #331a0f;
@@ -572,7 +572,7 @@ section#social {
 /*---menu---*/
 #slider-container {
   display: block;
-  background: url(../images/bg3/menu_bg2.png);
+  background: url(../img/bg3/menu_bg2.png);
   -webkit-box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.8);
@@ -619,7 +619,7 @@ header nav {
 header #main-menu {
   border-top: 4px double #331a0f;
   border-bottom: 4px double #331a0f;
-  background: url('../images/bg3/menu_bg2.png') repeat;
+  background: url('../img/bg3/menu_bg2.png') repeat;
   z-index: 1000;
   -webkit-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.2);
@@ -652,7 +652,7 @@ header #main-menu li.selected > a {
   -webkit-box-shadow: -10px 0px 0px -5px rgba(0,0,0,.2), 0 0 0 1px rgba(255,255,255,0.2)inset;
   -moz-box-shadow: -10px 0px 0px -5px rgba(0,0,0,.2), 0 0 0 1px rgba(255,255,255,0.2)inset;
   box-shadow: -10px 0px 0px -5px rgba(0,0,0,.2), 0 0 0 1px rgba(255,255,255,0.2)inset;
-  background: url('../images/bg3/menu_bg2.png') repeat;
+  background: url('../img/bg3/menu_bg2.png') repeat;
   z-index: 10;
 }
 header #main-menu li:hover:before,
@@ -719,7 +719,7 @@ html.ie #main-menu li {
 }
 .ei-slider-thumbs {
   height: 10px;
-  background: url(../images/bg3/menu_bg.png);
+  background: url(../img/bg3/menu_bg.png);
   margin: 0 auto;
   position: relative;
   border: 2px dotted #402401;
@@ -741,7 +741,7 @@ html.ie #main-menu li {
   height: 100%;
   z-index: 10;
   text-indent: -9000px;
-  background: url(../images/bg3/menu_bg2.png);
+  background: url(../img/bg3/menu_bg2.png);
   -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.8);
   box-shadow: 0 0px 2px rgba(0, 0, 0, 0.8);
@@ -809,7 +809,7 @@ html.ie #main-menu li {
   display: block;
   width: 200px;
   height: 600px;
-  background: url(../images/profile3.png) no-repeat;
+  background: url(../img/profile3.png) no-repeat;
 }
 /*---about first text---*/
 blockquote {
@@ -860,7 +860,7 @@ blockquote {
   display: block;
   width: 0%;
   height: 100px;
-  background: url(../images/bg3/menu_bg2.png);
+  background: url(../img/bg3/menu_bg2.png);
   -webkit-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 1px rgba(0, 0, 0, 0.2);
@@ -871,7 +871,7 @@ blockquote {
   border-top: 1px solid #331a0f;
   border-bottom: 1px solid #331a0f;
   margin-bottom: 20px;
-  background: url(../images/up3.png) no-repeat;
+  background: url(../img/up3.png) no-repeat;
   text-align: center;
   padding: 15px 0;
 }
@@ -902,7 +902,7 @@ blockquote {
   text-transform: uppercase;
   text-align: center;
   border: 4px solid  #fff;
-  background: url(../images/thumb_over.png);
+  background: url(../img/thumb_over.png);
   color: #888;
   -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.8);
@@ -1006,7 +1006,7 @@ input {
   width: 400px;
   height: 600px;
   margin-left: 600px;
-  background: url(../images/skills3.png) no-repeat;
+  background: url(../img/skills3.png) no-repeat;
 }
 /*---locomotive foot logo---*/
 .locomotive {
@@ -1015,11 +1015,11 @@ input {
   top: 80px;
   width: 200px;
   height: 200px;
-  background: url(../images/locomotive.png);
+  background: url(../img/locomotive.png);
 }
 /*---social---*/
 #social {
-  background: url(../images/bg3/menu_bg.png);
+  background: url(../img/bg3/menu_bg.png);
   border-top: 2px dotted #ffffff;
 }
 .social {
@@ -1038,7 +1038,7 @@ input {
   text-indent: -9999px;
   width: 62px;
   height: 62px;
-  background: transparent url(../images/sprite.png) 0 0;
+  background: transparent url(../img/sprite.png) 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
