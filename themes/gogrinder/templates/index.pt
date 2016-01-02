@@ -1,0 +1,269 @@
+<metal:template metal:use-macro="load: base.pt">
+
+<!--<metal:slot fill-slot="custommeta">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${article.seotitle}">
+  <meta name="twitter:description" content="${article.seodescription}">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="${article.seotitle}">
+  <meta property="og:description" content="${article.seodescription}">
+</metal:slot>-->
+
+<metal:slot fill-slot="page">
+  <div id="head"></div>
+  <header id="header" class="clearfix">
+    <a class="logo">
+      <img width="700" height="400" src="${SITEURL}/theme/img/head3.png" alt="" /></a>
+    <div class="nav-container">
+      <nav>
+        <ul id="main-menu">
+          <li><a href="#head">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--SLIDER FROM http://tympanus.net/codrops/-->
+  <section id="slider-container">
+    <div class="container_16  clearfix">      
+      <div>
+        <div id="ei-slider" class="ei-slider">
+          <ul class="ei-slider-large">
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/1.jpg" alt="image01" />
+              <div class="ei-title"></div>
+            </li>
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/2.jpg" alt="image02" />
+              <div class="ei-title">
+                <h2>Lorem ipsum Lorem ipsumLorem ipsum</h2>
+                <h3>Lorem ipsumLorem ipsum</h3>
+              </div>
+            </li>
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/3.jpg" alt="image03"/>
+              <div class="ei-title"></div>
+            </li>
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/4.jpg" alt="image04"/>
+              <div class="ei-title"></div>
+            </li>
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/5.jpg" alt="image05"/>
+              <div class="ei-title"></div>
+            </li>
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/6.jpg" alt="image06"/>
+              <div class="ei-title"></div>
+            </li>
+            <li>
+              <img src="${SITEURL}/theme/img/slider/large/7.jpg" alt="image07"/>
+              <div class="ei-title"></div>
+            </li>
+          </ul><!-- ei-slider-large -->
+          <ul class="ei-slider-thumbs">
+            <li class="ei-slider-element">Current</li>
+            <li>
+              <a href="#">Slide 1</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/1.png" alt="thumb01" />
+            </li>
+            <li>
+              <a href="#">Slide 2</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/2.png" alt="thumb02" />
+            </li>
+            <li>
+              <a href="#">Slide 3</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/3.png" alt="thumb03" />
+            </li>
+            <li>
+              <a href="#">Slide 4</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/4.png" alt="thumb04" />
+            </li>
+            <li>
+              <a href="#">Slide 5</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/5.png" alt="thumb05" />
+            </li>
+            <li>
+              <a href="#">Slide 6</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/6.png" alt="thumb06" />
+            </li>
+            <li>
+              <a href="#">Slide 7</a>
+              <img src="${SITEURL}/theme/img/slider/thumbs/7.png" alt="thumb07" />
+            </li>
+          </ul><!-- ei-slider-thumbs -->
+        </div><!-- ei-slider -->
+      </div>
+    </div>
+  </section>
+  
+  <!--ABOUT-->
+  <section id="about">
+    <div class="container_16 clearfix">
+      <div class="grid_16">
+        <div class="container_16 clearfix">
+          <div class="grid_4 alpha">
+            <div class="profile"></div>
+          </div>
+          <div class="grid_12 abouttext omega">
+            <blockquote>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique mauris vitae nisl malesuada congue pharetra est egestas.  
+            </blockquote>
+            
+            <h3 class="align-left">Jhon Doe</h3><br/>
+
+            <p class="align-left">Sed sagittis pharetra neque, ut fringilla tortor aliquet non. Phasellus congue rhoncus libero sed aliquam. Mauris sed lacus nec ligula molestie viverra nec ac nulla. Mauris vitae massa non diam mattis tincidunt. Nunc cursus porttitor pretium. Cras mattis dignissim sollicitudin. Pellentesque nec libero tellus. Morbi porta ornare libero, id pellentesque ipsum volutpat vel. In sit amet ante nunc, quis congue tortor. Nunc justo metus, semper pharetra dapibus id, vehicula a metus. Nunc elit augue, volutpat quis commodo sed, tempor quis ante. Fusce egestas, orci in vestibulum dignissim, tortor eros mattis sapien, auctor tincidunt nisi elit sed metus. Praesent gravida congue eros. Praesent bibendum rhoncus turpis, ac egestas lectus hendrerit sit amet. Morbi ut aliquam lectus.</p>
+            
+            <h3 class="align-left">Mision</h3><br/>
+
+            <p class="align-left">Sed sagittis pharetra neque, ut fringilla tortor aliquet non. Phasellus congue rhoncus libero sed aliquam. Mauris sed lacus nec ligula molestie viverra nec ac nulla. Mauris vitae massa non diam mattis tincidunt. Nunc cursus porttitor pretium. Cras mattis dignissim sollicitudin. Pellentesque nec libero tellus. Morbi porta ornare libero, id pellentesque ipsum volutpat vel. In sit amet ante nunc, quis congue tortor. Nunc justo metus, semper pharetra dapibus id, vehicula a metus. Nunc elit augue, volutpat quis commodo sed, tempor quis ante. Fusce egestas, orci in vestibulum dignissim, tortor eros mattis sapien, auctor tincidunt nisi elit sed metus. Praesent gravida congue eros. Praesent bibendum rhoncus turpis, ac egestas lectus hendrerit sit amet. Morbi ut aliquam lectus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SKILLS-->
+  <section id="skills">
+    <div class="container_16 clearfix">
+      <div class="grid_16 skills ">
+        <h3>Ai</h3> 
+        <h4>80%</h4>      
+        <div class="progress">
+          <div class="bar" data-width="80"></div>
+        </div>
+
+        <h3>Ps</h3>
+        <h4>100%</h4>
+        <div class="progress">
+          <div class="bar" data-width="100"></div>
+        </div>
+
+        <h3>Id</h3>
+        <h4>70%</h4>
+        <div class="progress">
+          <div class="bar" data-width="70"></div>
+        </div>
+
+        <h3>Fl</h3>
+        <h4>90%</h4>
+        <div class="progress">
+          <div class="bar" data-width="90"></div>
+        </div>
+      </div>
+      <div class="skillspic"></div>
+    </div>
+  </section>
+
+  <!--PORTFOLIO-->
+  <section id="portfolio">
+    <div class="container_16 clearfix">
+      <div class="grid_8 push_4"></div>
+        <div class="grid_16">
+          <h2 id="portfolio">Portfolio</h2>
+          <!--GALLERY FILTER-->
+          <ul class="filter">
+            <li class="selected"><a href="#selected" rel="all">All</a></li>
+            <li><a href="#webdesign" rel="web">webdesign</a></li>
+            <li><a href="#print" rel="print">print</a></li>
+            <li><a href="#photo" rel="photo">photo</a></li>
+            <li><a href="#icon" rel="icon">icon</a></li>          
+          </ul>
+        </div>
+
+        <!--GALLERY-->    
+        <div class="grid_16 clearfix ">
+          <ul class="gallery">
+            <li rel="photo">
+              <a href="${SITEURL}/theme/img/gallery/large/1.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img src="${SITEURL}/theme/img/gallery/thumb/1.jpg" alt="poster02" />
+              </a>
+            </li>
+            <li rel="photo">
+              <a href="${SITEURL}/theme/img/gallery/large/2.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img src="${SITEURL}/theme/img/gallery/thumb/2.jpg" alt="poster02" />
+              </a>
+            </li>
+            <li rel="web"
+              ><a href="${SITEURL}/theme/img/gallery/large/3.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img src="${SITEURL}/theme/img/gallery/thumb/3.jpg" alt="poster02" />
+              </a>
+            </li>
+            <li rel="icon">
+              <a href="${SITEURL}/theme/img/gallery/large/4.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img src="${SITEURL}/theme/img/gallery/thumb/4.jpg" alt="poster02poster02" />
+              </a>
+            </li>
+            <li rel="web">
+              <a href="${SITEURL}/theme/img/gallery/large/5.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img  src="${SITEURL}/theme/img/gallery/thumb/5.jpg" alt="poster02" />
+              </a>
+            </li>
+
+            <li rel="icon">
+              <a href="${SITEURL}/theme/img/gallery/large/6.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img src="${SITEURL}/theme/img/gallery/thumb/6.jpg" alt="poster02" />
+              </a>
+            </li>
+            <li rel="photo">
+              <a href="${SITEURL}/theme/img/gallery/large/7.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+                <img src="${SITEURL}/theme/img/gallery/thumb/7.jpg" alt="poster02" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <!--</div>something is broken here!!!-->
+  </section>
+  <!--CONTACT-->
+  <section id="contact">
+    <div class="container_16 clearfix">
+      <div class="grid_16">
+        <h2 id="contact">Contact</h2>
+      </div>
+      <form action="contact-form-handler.php" name="contactform" method="post" class="grid_12 push_2 contact">
+        <div class="grid_12">
+          <input for='name'type="text" name="name" id="name" placeholder="name"><br>
+          <input for='email' name="email" id="email" placeholder="email"><br>
+          <input type="text" name="" id="title" placeholder="title">
+        </div>
+        <div class="grid_12 ">
+          <textarea for='message' name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+        </div>
+        <input type="submit" id="send" value="Send">
+      </form>
+    </div>
+  </section>
+
+  <div class="container_16 clearfix">
+    <div class="grid_4 push_6 locomotive"></div>
+  </div>
+
+  <!--SOCIAL-->
+  <section id="social">
+    <div class="container_16 clearfix">
+      <div class="grid_16">
+        <div class="align-center social">
+          <ul>
+            <li class="google"><a href="#google">google</a></li>
+            <li class="flickr"><a href="#flickr">flickr</a></li>
+            <li class="twitter"><a href="#twitter">twitter</a></li>
+            <li class="dribble"><a href="#dribble">dribble</a></li>
+            <li class="behance"><a href="#behance">behance</a></li>
+            <li class="facebook"><a href="#facebook">facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer></footer>
+
+</metal:slot>
+
+</metal:template>

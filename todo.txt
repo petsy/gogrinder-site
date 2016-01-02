@@ -1,0 +1,13 @@
+
+
+Buccaneer
+o fix LOCAL_URLS = True for SITEURL
+
+Plugins
+o tag_cloud tests and checkin
+
+Template
+o move theme to themes folder
+o add tests for templates
+
+Content
