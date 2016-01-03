@@ -1,0 +1,12 @@
+<div class="container_16 clearfix">
+  <div class="grid_16">
+    <div class="container_16 clearfix">
+      <div class="grid_4 alpha">
+        <div class="profile"></div>
+      </div>
+      <div class="grid_12 abouttext omega">
+        ${structure:part.content}
+      </div>
+    </div>
+  </div>
+</div>

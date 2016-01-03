@@ -1,4 +1,4 @@
 TODO
 * parts in direct templates
 * check caching settings for direct templates
-
+* arrange headers <-h2<-h3<- ...

@@ -20,7 +20,8 @@
         <ul id="main-menu">
           <li><a href="#head">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">skills</a></li>
+          <li><a href="#yada">Yada</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -128,6 +129,11 @@
     </div>
   </section>
 
+  <!--YADA-->
+  <section id="yada" tal:define="local part next(x for x in parts if x.name=='yada')">
+    <metal:section tal:define="section load:part.pt" use-macro="section" />
+  </section>
+
   <!--SKILLS-->
   <section id="skills">
     <div class="container_16 clearfix">
@@ -164,62 +170,62 @@
   <section id="portfolio">
     <div class="container_16 clearfix">
       <div class="grid_8 push_4"></div>
-        <div class="grid_16">
-          <h2 id="portfolio">Portfolio</h2>
-          <!--GALLERY FILTER-->
-          <ul class="filter">
-            <li class="selected"><a href="#selected" rel="all">All</a></li>
-            <li><a href="#webdesign" rel="web">webdesign</a></li>
-            <li><a href="#print" rel="print">print</a></li>
-            <li><a href="#photo" rel="photo">photo</a></li>
-            <li><a href="#icon" rel="icon">icon</a></li>          
-          </ul>
-        </div>
-
-        <!--GALLERY-->    
-        <div class="grid_16 clearfix ">
-          <ul class="gallery">
-            <li rel="photo">
-              <a href="${SITEURL}/theme/img/gallery/large/1.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img src="${SITEURL}/theme/img/gallery/thumb/1.jpg" alt="poster02" />
-              </a>
-            </li>
-            <li rel="photo">
-              <a href="${SITEURL}/theme/img/gallery/large/2.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img src="${SITEURL}/theme/img/gallery/thumb/2.jpg" alt="poster02" />
-              </a>
-            </li>
-            <li rel="web"
-              ><a href="${SITEURL}/theme/img/gallery/large/3.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img src="${SITEURL}/theme/img/gallery/thumb/3.jpg" alt="poster02" />
-              </a>
-            </li>
-            <li rel="icon">
-              <a href="${SITEURL}/theme/img/gallery/large/4.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img src="${SITEURL}/theme/img/gallery/thumb/4.jpg" alt="poster02poster02" />
-              </a>
-            </li>
-            <li rel="web">
-              <a href="${SITEURL}/theme/img/gallery/large/5.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img  src="${SITEURL}/theme/img/gallery/thumb/5.jpg" alt="poster02" />
-              </a>
-            </li>
-
-            <li rel="icon">
-              <a href="${SITEURL}/theme/img/gallery/large/6.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img src="${SITEURL}/theme/img/gallery/thumb/6.jpg" alt="poster02" />
-              </a>
-            </li>
-            <li rel="photo">
-              <a href="${SITEURL}/theme/img/gallery/large/7.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
-                <img src="${SITEURL}/theme/img/gallery/thumb/7.jpg" alt="poster02" />
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="grid_16">
+        <h2 id="portfolio">Portfolio</h2>
+        <!--GALLERY FILTER-->
+        <ul class="filter">
+          <li class="selected"><a href="#selected" rel="all">All</a></li>
+          <li><a href="#webdesign" rel="web">webdesign</a></li>
+          <li><a href="#print" rel="print">print</a></li>
+          <li><a href="#photo" rel="photo">photo</a></li>
+          <li><a href="#icon" rel="icon">icon</a></li>          
+        </ul>
       </div>
-    <!--</div>something is broken here!!!-->
+
+      <!--GALLERY-->    
+      <div class="grid_16 clearfix ">
+        <ul class="gallery">
+          <li rel="photo">
+            <a href="${SITEURL}/theme/img/gallery/large/1.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img src="${SITEURL}/theme/img/gallery/thumb/1.jpg" alt="poster02" />
+            </a>
+          </li>
+          <li rel="photo">
+            <a href="${SITEURL}/theme/img/gallery/large/2.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img src="${SITEURL}/theme/img/gallery/thumb/2.jpg" alt="poster02" />
+            </a>
+          </li>
+          <li rel="web"
+            ><a href="${SITEURL}/theme/img/gallery/large/3.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img src="${SITEURL}/theme/img/gallery/thumb/3.jpg" alt="poster02" />
+            </a>
+          </li>
+          <li rel="icon">
+            <a href="${SITEURL}/theme/img/gallery/large/4.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img src="${SITEURL}/theme/img/gallery/thumb/4.jpg" alt="poster02poster02" />
+            </a>
+          </li>
+          <li rel="web">
+            <a href="${SITEURL}/theme/img/gallery/large/5.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img  src="${SITEURL}/theme/img/gallery/thumb/5.jpg" alt="poster02" />
+            </a>
+          </li>
+
+          <li rel="icon">
+            <a href="${SITEURL}/theme/img/gallery/large/6.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img src="${SITEURL}/theme/img/gallery/thumb/6.jpg" alt="poster02" />
+            </a>
+          </li>
+          <li rel="photo">
+            <a href="${SITEURL}/theme/img/gallery/large/7.jpg" rel="lightbox" class="thumb" title="Lorem ipsum dolor sit amet">
+              <img src="${SITEURL}/theme/img/gallery/thumb/7.jpg" alt="poster02" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
+
   <!--CONTACT-->
   <section id="contact">
     <div class="container_16 clearfix">
